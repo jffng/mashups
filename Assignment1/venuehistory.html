@@ -85,6 +85,7 @@
         imageSearch = new google.search.ImageSearch();
 
         imageSearch.setRestriction(
+		google.search.Search.SAFESEARCH_OFF
   		google.search.ImageSearch.RESTRICT_IMAGESIZE,
   		google.search.ImageSearch.IMAGESIZE_LARGE);
         imageSearch.setResultSetSize(1);
