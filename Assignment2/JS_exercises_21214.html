@@ -1,0 +1,44 @@
+<head>
+<script type="text/javascript">
+	var string = "";
+	for (var counter = 0; counter < 8; counter++) { 
+		console.log(string);  
+		string += "#";
+	}
+</script>
+
+<script type="text/javascript">
+	for (var i = 1; i < 101; i++) {
+		if ( i % 3 == 0 ){
+			if (i % 5 == 0) {
+				console.log("FizzBuzz");
+			}
+			else { console.log("Fizz");	}
+		}
+		else if ( i % 5 == 0 ){
+			console.log("Buzz");
+		}
+		else { console.log(i);} 
+	}
+</script>
+
+<script type="text/javascript">
+	var size = 100;
+	var string = "";
+	for(var stringInit = 0; stringInit < size / 2; stringInit++){
+		string += "# ";
+	}
+
+	for (var c = 1; c <= size; c++) {
+		if (c % 2 == 0){
+			console.log(" " + string);
+		}
+		else { console.log(string); }
+	}
+</script>
+
+</head>
+
+<body>
+
+</body>
