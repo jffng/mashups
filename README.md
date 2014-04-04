@@ -219,8 +219,6 @@ Syllabus
 
 ### Week 6 (03/06): Data Organization & Management + Guest Talk by Jeremy Scott-Diamond
 
-##### [Sunlight Foundation API](http://sunlightfoundation.com/api/)
-
 ##### Managing the Data
 * Manipulating Strings
   * [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
@@ -233,11 +231,12 @@ Syllabus
 * Using Underscore
 * Managing Asynchronicity
   * [Mulitple Simultnaeous AJAX Requests In jQuery](http://css-tricks.com/multiple-simultaneous-ajax-requests-one-callback-jquery/)
-* WhatsUpCongress Examples
-
+* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
+* WhatsUpCongress Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/WhatsUpCongress.zip)
+ 
 ##### [Jeremy Scott Diamond](http://jeremyscottdiamond.com/#projects) - "Working With D3" 
 * [D3JS](http://d3js.org/)
-* [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) Click [HERE](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip) to download the example code
+* [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip)
 * Additional Tools
   * [Google Charts](https://developers.google.com/chart/)
   * [ChartJS](http://www.chartjs.org/)
@@ -247,14 +246,24 @@ Syllabus
 
 ##### Homework
 * Play with D3   
-* Look at the P5js & PaperJS libraries
+* Look at the [P5](https://github.com/lmccart/p5.js) & [PaperJS](http://paperjs.org/) libraries
 
 ### Week 7 (03/13): A Blank Canvas
 
+##### Animation in the Browser
+* [Canvas vs SVG - How to Choose the Right Format](http://www.sitepoint.com/canvas-vs-svg-how-to-choose/)
+* [Mozilla - Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial)
+* [Dive Into HTML5 - Let's Call It A Draw(ing) Surface](http://diveintohtml5.info/canvas.html)
+* [HTML5 Canvas Cheat Sheet](http://www.nihilogic.dk/labs/canvas_sheet/HTML5_Canvas_Cheat_Sheet.pdf)
+* [CreativeJS - Request Animation Frame](http://creativejs.com/resources/requestanimationframe/)
+* [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
+* [PaperJS vs ProcessingJS vs RafaelJS](http://coding.smashingmagazine.com/2012/02/22/web-drawing-throwdown-paper-processing-raphael/) + [Comparison Examples](http://zgrossbart.github.io/3gears/)
+
 ##### Animation Tools
 * [P5](https://github.com/lmccart/p5.js)
-* [RafaelJS](http://raphaeljs.com/)
 * [PaperJS](http://paperjs.org/)
+* [RafaelJS](http://raphaeljs.com/)
+
 
 ##### Homework
 * Play with an Animation Library   
@@ -264,15 +273,29 @@ Syllabus
 
 ##### Audio
 * Web Audio API
-* [HTML5 Rocks: Getting Started With Web AUdio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
-* [CreativeJS: Web Audio API - Getting Started](http://creativejs.com/resources/web-audio-api-getting-started/)
+  * [HTML5 Rocks: Getting Started With Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
+  * [Web Audio API by Boris Smus](http://chimera.labs.oreilly.com/books/1234000001552/index.html) - Ch.1 & 2
+  * [Canvas Deep Dive - Intro to Web Audio](http://joshondesign.com/p/books/canvasdeepdive/chapter12.html#overview) by [Josh Marinacci](https://twitter.com/joshmarinacci)
+  * [StuartMemo.com - Web Audio Projects & Tutorials](http://stuartmemo.com/)
+  * [Stuart Memo Video - How to Create Audio Using the Web Audio API](http://www.youtube.com/watch?v=oHBx_kMmsRE)
+  * [Stack Overflow - What's the Difference Between Web Audio & HTML5 Audio Anyway?](http://stackoverflow.com/questions/13121250/whats-the-difference-between-web-audio-and-html5-audio-anyway)
+* Web Audio API Libraries
+  * [Howler](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) - Basic Web Audio + HTML5 Audio
+  * [Annyang](https://www.talater.com/annyang/) - Speech Recognition
+  * [Timbre](http://mohayonao.github.io/timbre.js/) - Process and Synthesize Audio
+  * [Buzz](http://buzz.jaysalvat.com/documentation/buzz/) - HTML5 Audio
+* [FreeSound API](https://www.freesound.org/help/developers/)
+* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Basic_Audio.zip)
 
 ##### Video
 * [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
-* [VideoJS](http://www.videojs.com/) 
-* [PopcornJS](http://popcornjs.org/)
+* HTML5 Video Libraries
+  * [PopcornJS](http://popcornjs.org/)  
+  * [Popcorn Starter Code](https://github.com/benrito/popcorn-starter) - [Ben Moskowitz](https://twitter.com/benrito)
+  * [VideoJS](http://www.videojs.com/) 
+* [Youtube API](https://developers.google.com/youtube/v3/)  
+* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Basic_Video.zip)
 
-APIs - Youtube & Vimeo
 
 ##### Homework
 * DUE - Assignment #2
@@ -280,6 +303,15 @@ APIs - Youtube & Vimeo
 ### Week 9 (04/03): Assignment #2 DUE + Intro to the Server
 
 ##### Presentations - Assignment #2
+
+##### Intro to the Server
+* Install [NodeJS](http://nodejs.org/)
+* [Express Framework](http://expressjs.com/)
+* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Server_Node_Express.zip)
+
+##### Homework
+* READ - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
+* CREATE - An Express version of one of your assignments
 
 ### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
 [API - CouchDB](http://couchdb.apache.org/)
@@ -317,7 +349,9 @@ Helpful Links
 * [URL Encoding](http://www.blooberry.com/indexdot/html/topics/urlencoding.htm) or 'What are those "%20" codes in URLs'?
 * [Favicon Generator](http://www.favicon.cc/)
 * [Can I Use](http://caniuse.com/)
-
+* [WebKit for Developers](http://www.paulirish.com/2013/webkit-for-developers/) by Paul Irish
+* [Ars Technica - Does Webkit Face A Troubled Future Now That Google Is Gone](http://arstechnica.com/information-technology/2013/04/does-webkit-face-a-troubled-future-now-that-google-is-gone/)
+* [Best Practices for Speeding Up Your Web Site - Yahoo Developer Network](http://developer.yahoo.com/performance/rules.html)
 
 #### HTML
 
