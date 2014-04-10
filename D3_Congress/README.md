@@ -1,3 +1,6 @@
+##### This example created by Jeremy Scott-Diamond: [Github - JSDiamond](https://github.com/JSDiamond)
+
+
 Polarized Congress
 =================================
 
@@ -5,7 +8,7 @@ Polarized Congress
  
 Using the **Sunlight Foundation Congress API**
 
-<http://sunlightlabs.github.io/congress/>
+<https://sunlightlabs.github.io/congress/>
 
 as well as **D3.js**
 
