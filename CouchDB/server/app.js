@@ -7,12 +7,12 @@ var _ = require('underscore');
 var app = express();
 
 // The username you use to log in to cloudant.com
-var CLOUDANT_USERNAME="";
+var CLOUDANT_USERNAME="jffng";
 // The name of your database
-var CLOUDANT_DATABASE="";
+var CLOUDANT_DATABASE="mashups-test";
 // These two are generated from your Cloudant dashboard of the above database.
-var CLOUDANT_KEY="";
-var CLOUDANT_PASSWORD="";
+var CLOUDANT_KEY="tlyselfurverideronsconst";
+var CLOUDANT_PASSWORD="AtexXkJyKQHC6ktyopIguC1u";
 
 var CLOUDANT_URL = "https://" + CLOUDANT_USERNAME + ".cloudant.com/" + CLOUDANT_DATABASE
 
@@ -65,6 +65,7 @@ app.get("/api/:key", function (request, response) {
 
     // And then filter the results to match the desired key.
     var filtered = _.filter(models, function (m) {
+      console.log(m.doc);
       return m.doc.namespace == request.params.key;
     })
 
