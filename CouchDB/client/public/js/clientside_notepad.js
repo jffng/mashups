@@ -1,18 +1,18 @@
 // Required fields for connecting to Cloudant
 
 // The username you use to log in to cloudant.com
-var CLOUDANT_USERNAME="";
+var CLOUDANT_USERNAME="jffng";
 // The name of your database
-var CLOUDANT_DATABASE="";
+var CLOUDANT_DATABASE="mashups-test";
 // These two are generated from your Cloudant dashboard of the above database.
-var CLOUDANT_KEY="";
-var CLOUDANT_PASSWORD="";
+var CLOUDANT_KEY="tlyselfurverideronsconst";
+var CLOUDANT_PASSWORD="AtexXkJyKQHC6ktyopIguC1u";
 
 // This function takes your Cloudant key and password and returns a Base64
 // encoded string to authorize your requets. Without this, you'd need to fill
 // in a username and password to make requets. Read more about the btoa()
 // function here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Base64_encoding_and_decoding
-var hash = btoa(CLOUDANT_KEY+":"+CLOUDANT_PASSWORD)
+var hash = btoa(CLOUDANT_KEY+":"+CLOUDANT_PASSWORD);
 
 var noteTemplate = function (data) {
   template = '<div class="note">'
@@ -62,6 +62,7 @@ var loadNotes = function () {
   })
 }
 
+// short form for document.ready()
 $(function () {
   loadNotes();
 
@@ -81,14 +82,14 @@ $(function () {
     request.done(function (resp) {
       // Render the note.
       var compiledTmpl = noteTemplate(noteData);
-      $("#notes").append(compiledTmpl)
+      $("#notes").append(compiledTmpl);
 
       // Empty the form.
-      $("#note-title").val("")
-      $("#note-text").val("")
+      $("#note-title").val("");
+      $("#note-text").val("");
 
       // Deselect the submit button.
-      $("#note-submit").blur()
+      $("#note-submit").blur();
     });
 
     // Attach a callback if something goes wrong. Tell the user but don't tell
