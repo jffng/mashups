@@ -36,7 +36,7 @@ var saveRecord = function (data) {
     contentType: "application/json",
     type: "POST",
     data: JSON.stringify(data)
-  })
+  });
 }
 
 // Loads all records from the Cloudant database. Loops through them and
@@ -74,7 +74,8 @@ $(function () {
       created_at: new Date()
     }
 
-    // Send the data to our saveRecord function
+    // Send the data to our saveRecord function. This is very important. 
+    // We pass the noteData object into our function that stringifies it and POSTs it to CloudAnt
     var request = saveRecord(noteData);
 
     // Attach a callback for a successful save to CouchDB. CouchDB doesn't
