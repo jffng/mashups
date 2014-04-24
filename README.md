@@ -296,7 +296,6 @@ Syllabus
 * [Youtube API](https://developers.google.com/youtube/v3/)  
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Basic_Video.zip)
 
-
 ##### Homework
 * DUE - Assignment #2
 
@@ -310,33 +309,61 @@ Syllabus
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Server_Node_Express.zip)
 
 ##### Homework
-* READ - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
-* CREATE - An Express version of one of your assignments
+* Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
+* Create - An Express version of one of your assignments
+* Additional Reading
+  * [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
 
 ### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
 
 ##### Steve Klise - Storage with CouchDB
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/CouchDB.zip)
 * [CouchDB](http://couchdb.apache.org/)
+* [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
 
+
 ##### Discussion - Final Project Due Week 14 Class (05/08)
-* Create a single web page experience that lives on the web and leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate at least ONE of the following elements:
+* Create a single web page experience that leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate at least ONE of the following elements:
   * a public web API as a data source
   * a client-side js library other than jQuery
   * server-side code (i.e. Node-Express)
   * data-storage (i.e. CouchDB on Cloudant)
 
 ##### Homework
-* PROPOSAL - Present At Least Two Final Project Ideas
+* Create - An Express-CouchDB (Cloudant) version of last week's homework
+* Proposal - Present At Least Two Final Project Ideas
 
 ### Week 11 (04/17): Re-Introduce Ourselves with OAuth + Final Project Proposal
-API - Twitter
+* Open Authentication (OAuth)
+  * [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
+  * [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
+  * [OAuth Case Study with Foursquare](http://www.sitepoint.com/oauth-explained-with-foursquar/)
+  * [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
+  * [PassportJS](http://passportjs.org/) - Authentication for Node
+  * [Twitter REST API v.1.1](https://dev.twitter.com/docs/api/1.1)
+  * Code Example - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/OAuth_Twitter.zip)
+
+* Additional
+  * Sessions, Cookies, Local Storage, SSL, and HTTPS
+  * [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
 
 ### Week 12 (04/24): Running Wild on Heroku + Guest Talk by Miguel Bermudez
 
-##### Miguel Bermudez - "TBD" 
-* References
+##### How to Deploy
+* Git
+  * [Download & Install Git](http://git-scm.com/downloads)
+  * Steve Klise - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) + [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
+  * [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
+* Heroku
+  * [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
+  * Corey Forsyth - [Deploying Node App to Heroku](https://vimeo.com/91210794)
+  * [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+* [Mashups Sepcific Tutorial](https://github.com/craigprotzel/Mashups/tree/master/Heroku_Node_Deploy)
+
+##### Miguel Bermudez - IRL
+* [github.com/miguelbermudez](https://github.com/miguelbermudez)
+* [Control Group](http://www.controlgroup.com/)
 
 ### Week 13 (05/01): Final Project Workshop & User Testing
 
@@ -361,16 +388,19 @@ Helpful Links
 * [Best Practices for Speeding Up Your Web Site - Yahoo Developer Network](http://developer.yahoo.com/performance/rules.html)
 
 #### HTML
-
+* [What Is HTML5?](http://radar.oreilly.com/2011/07/what-is-html5.html)
 
 #### CSS
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/) - scalable customizable icons controlled by CSS
 * [CSS Tricks - Set Page Background to a Full Image](http://css-tricks.com/perfect-full-page-background-image/)
 * [Little CSS Stuff Newcomers Get Confused ABout](http://css-tricks.com/little-css-stuff-newcomers-get-confused-about/)
 * [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 
 #### JS
 * ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
+* [SuperheroJS](http://superherojs.com/) - a collection of the best articles, videos, and presentations on javascript
 * [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
+* [JS IS Sexy - 16 Concepts JS Professionals Must Know Well](http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/)
 * [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)  
 * [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices)
 * [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)

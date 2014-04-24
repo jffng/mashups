@@ -79,5 +79,6 @@ app.get("/:key", function (request, response) {
   response.render('notes',{title: "Notepad", key: request.params.key});
 });
 
-app.listen(3000);
+var port = process.env.PORT;
+app.listen(port || 3000);
 console.log('Express started on port 3000');
